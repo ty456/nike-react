@@ -1,0 +1,44 @@
+@keyframes zoom-in-out {
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.zoom-in-out:hover {
+  animation-name: zoom-in-out;
+  animation-duration: 0.9s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+}
+
+/* nike react infinity run 2 */
+.text-adjust {
+  margin-top: 100px;
+}
+
+/* svg logo */
+.adjust-svg-logo {
+  float: left;
+}
+
+/* svg border */
+.svg-border {
+  width: 380px;
+  height: 110px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 100px;
+}
+
+/* mobile svg */
+.mobile-svg {
+  margin-top: 30px;
+}
+
+.card-title {
+  color: orange;
+}
